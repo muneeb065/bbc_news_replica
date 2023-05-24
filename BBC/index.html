@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<head>
+<title>BBC-Homepage</title>
+<style>
+    #bbc{
+        width:1280px;
+        margin:0 auto;
+        height:45px;
+        background-color: rgb(12, 12, 12);
+    }
+    body{
+        margin:0px;
+        padding:0;
+        font-family:Arial, Helvetica, sans-serif;
+        width:100%;
+
+    }
+    a:hover{
+        color:rgb(216, 177, 141);
+        text-decoration: underline ;
+    }
+    #img{
+        height:24px;
+        margin-top:10px;
+        margin-right:8px;
+        margin-left:8px;
+        margin-bottom:8px;
+        float:left;
+    }
+    .line{
+        float: left;
+        border-left:1px grey solid;
+        height:100%;
+    }
+    #circle{
+        float:left;
+        width:29px;
+        height:24px;
+        margin-left:10px;
+        margin-top:13px;
+        margin-right:4px;
+    }
+    #sign{
+        font-weight: bold;
+        padding-right:50px;
+        position:relative;
+        top:17px;
+        float:left;
+        color: white;
+        font-size:91%;
+    }
+    .main{
+       position:relative;
+       top:16px;
+       left:18px;
+       padding-right:40px;
+       font-size:80%;
+       font-weight:bold;
+       color:white;
+       text-decoration: none;
+
+    }
+    #morearrow{
+        float:left;
+        margin-top:9px;
+        margin-left:40px;
+        height:30px;
+        width:25px;
+    }
+    #more{
+        position:relative;
+        left:16px;
+        top:16px;
+        font-size:85%;
+        font-weight:bold;
+        float:left;
+        color:white;
+    }
+    #search{
+        border:0px;
+        background-color:rgb(240, 240, 247);
+        margin-left:10px;
+        margin-top:12px;
+        padding-top:2px;
+        padding-left:5px;
+        padding-bottom:5px;
+        font-weight:bold;
+        color:#646262;
+        float:left;
+    }
+        #searchicon{
+            top:9px;
+            width:29px;
+            position:relative;
+            bottom:1px;
+            height:27px;
+            float:left;
+    
+        }
+        .clear{
+            clear:both;
+        }
+        .red{
+            width:100%;
+            height:77px;
+            background-color: rgb(206, 1, 1);
+        }
+        #bor{
+            width:100%;
+            height:4px;
+            
+
+        }
+        #news{
+            font-size: 40PX;
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+            margin-left:30px;
+            padding-left:60;
+            font-weight:normal;
+            
+        }
+        #newbor{
+            width:1300px;
+        margin:0 auto;
+        height:40px;
+        
+        
+        }
+    .last{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        float:left;
+        position:relative;
+        top:50px;
+        left:100px;
+        border-right:1px #BB4545 solid;
+        border-height:50%;
+        font-weight: normal;
+        color:white;
+        padding-right:10px;
+        padding-left:5px;
+        text-decoration:none;
+    }
+    .last:hover{
+        text-decoration:underline;
+        color:white;
+    }
+    #mmore{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        float:left;
+        position:relative;
+        top:50px;
+        left:100px;
+        font-weight: normal;
+        color:white;
+        padding-right:10px;
+        padding-left:5px;
+        text-decoration: none; 
+
+    }
+    #png{
+        width:auto;
+        height:auto;
+    }
+    #tech{
+        width:1280;
+        margin:0 auto;
+    }
+    h2{
+        color:rgb(17, 16, 16);
+        font-size: 20px;
+    
+        margin-top:10px;
+        width:105px;
+    }
+    #hv{
+        text-decoration: none;
+        color:black;   
+    }
+    #hmm{
+        width:1080px;
+        margin:0 auto;
+    }
+    h2{
+        color:black;
+        font-weight: normal;
+        font-size:20px;
+        margin-left:100px;
+        border-bottom:2px solid #a91717;
+        width:105px;
+    }
+    h2 a{
+        text-decoration: none;
+
+    }
+    h2 a:hover{
+        color: blue;
+        text-decoration: none;
+    }
+    #ol{
+        position:relative;
+        left:100px;
+    }
+    h1 a{
+        text-decoration:none;
+        color:#1D1D1B;
+    }
+    h1 a:hover{
+        color:#1167a8;
+        text-decoration: none;
+    } 
+    #net{
+width:250px;
+color:#5A5A5A;
+padding-left:100px;
+float:left;
+    }
+    #uf{
+        text-decoration: none;
+        color:#1167a8;
+    }
+    #uf:hover{
+        text-decoration:none;
+        
+    }
+    #ul{
+        width:500px;
+        height:300px;
+        float:left;
+        position:relative;
+        left:9px;
+
+    }
+    #tl{
+        width:480px;
+        margin-left:20px;
+    
+        
+    }
+    #lt{
+        float:left;
+        width:770px;
+        border-right:1px grey solid;
+        padding-left:2px;
+    
+    }
+    
+    
+</style>
+</head>
+<div id="bbc">
+    <a href="https://www.bbc.com/"><img id="img" src="image/bbc.png"></a>
+    <div class="line">
+        <a href="https://www.google.com"><img id="circle" src="sign.png">
+        <span id="sign">Sign in</span></a>
+    </div>
+    <div class="line"><a href="https://www.bbc.com/"><span class="main">Home</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/news"><span class="main">News</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/sport"><span class="main">Sport</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><span class="main">Weather</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><span class="main">Shop</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><span class="main">Reel</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><span class="main">Travel</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><span class="main">Capital</span></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><span id="more">More</span><img id="morearrow" src="dot.png"></a></div>
+    <div class="line"><a href="https://www.bbc.com/"><input id="search" type="text" value="search"><img id="searchicon" src="search1.png"></a></div>
+</div>
+<div class="clear"></div>
+<div class="red">
+    <div id="bor">
+        <div id="news">NEWS</div>
+    </div> 
+<div class="red">
+    <div id="newbor">
+    <div><a href="https://www.google.com" class="last">Home</a></div>
+    <div><a href="https://www.google.com" class="last">Video</a></div>
+    <div><a href="https://www.google.com" class="last">World</a></div>
+    <div><a href="https://www.google.com" class="last">Asia</a></div>
+    <div><a href="https://www.google.com" class="last">UK</a></div>
+    <div><a href="https://www.google.com" class="last">Buisness</a></div>
+    <div><a href="https://www.google.com" class="last">Tech</a></div>
+    <div><a href="https://www.google.com" class="last">Science</a></div>
+    <div><a href="https://www.google.com" class="last">Stories</a></div>
+    <div><a href="https://www.google.com" class="last">Entertainment & Arts</a></div>
+    <div><a href="https://www.google.com" class="last">Health</a></div>
+    <div><a href="https://www.google.com" class="last">World News Tv</a></div>
+    <div><a href="https://www.google.com" class="last">In Pictrue</a></div>
+    <div><a href="https://www.google.com" class="last">Reality Check</a></div>
+    <div><a href="https://www.google.com" class="last">News</a></div>
+    <div><a href="" id="mmore">More</a></div>
+
+</div>
+</div>
+<div class="clear"></div>
+<div id="tech">
+<div><h2><a href="">Technology</a></h2>
+<div><h1><a href="" id="ol">Facebook Suffer most Severe outage ever</a></h1>
+<div id="net">
+
+<p>The Social Netwrok Confirms Problems with "family of apps", but<br> the cause is currently unknown.</p>
+<p>11 March 2019 | <a id="uf" href="">Technology</a></p></div>
+
+<div><img id="tl" src="dl.jpg"/>
+<div ></div>
+</div>
+</div>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+</html>
